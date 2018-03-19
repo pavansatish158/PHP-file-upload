@@ -1,0 +1,356 @@
+body {
+	background-color: #424951;
+	/*color: #5BC8CE;*/
+	padding: 0px;
+}
+
+.form{
+     margin-top: 70px;
+     border: 1px solid #30c247;
+     width: 525px;
+     height: auto;
+     background: black;
+}
+.txt {
+	color: coral;
+    float: left;
+    margin-top:5px; 
+}
+p{
+    color: ghostwhite;
+}
+.note{
+    color: #51d466;
+}
+h2 {
+	color: lightgreen;
+	box-shadow: 4px 9px 23px #88B588;
+	width: 330px;
+}
+
+h4 {
+	color: ghostwhite;
+}
+
+table {
+	margin-top: -300px;
+}
+
+tbody,
+tr {
+	table-layout: fixed;
+}
+
+
+td,
+img {
+	display: inline-block;
+	/*vertical-align: middle;*/
+}
+/*.rc-anchor-alert{
+    visibility: hidden;
+    color: white;
+    font-size: 13px;
+    position: absolute;
+}*/
+
+input[type=submit] {
+    color: #fff;
+    background: #51d466;
+    border: 1px solid #30c247;
+    margin-bottom: 5px; 
+}
+
+.btn {
+    border-radius: 2px;
+    position: relative;
+}
+.row {
+	width: 100%;
+	height: auto;
+}
+
+.tree{
+    border: 1px solid;
+
+}
+.tree li a{
+   color: ghostwhite;
+   font-weight:bold;
+   text-decoration: none;
+   cursor: default;
+}
+.tree ol{
+    color: coral;
+}
+.glyphicon-folder-open {
+    color: yellow;
+   
+}
+.fieldgroup{
+   float: left;
+   width: auto;
+   margin-left: 2em;
+}
+.fieldgroup label{
+    font-size: 15px;
+    vertical-align: middle;
+}
+fieldset{
+    color: white;
+}
+form{
+    color: #fff;
+}
+
+/*slider css*/
+@media (min-width: 768px) {
+.col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-5ths {
+         width: 18%;
+        float: left;
+        margin-left: 19px;
+
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+  .carousel-showmanymoveone .carousel-control {
+        width: 1%;
+        background-image: none;
+    }
+    .carousel-showmanymoveone .carousel-control.left {
+        margin-left: 5px;
+    }
+    .carousel-showmanymoveone .carousel-control.right {
+        margin-right: 15px;
+    }
+    .carousel-showmanymoveone .cloneditem-1,
+    .carousel-showmanymoveone .cloneditem-2,
+    .carousel-showmanymoveone .cloneditem-3 {
+        display: none;
+    }
+    @media all and (min-width: 768px) {
+        .carousel-showmanymoveone .carousel-inner>.active.left,
+        .carousel-showmanymoveone .carousel-inner>.prev {
+            left: -50%;
+        }
+        .carousel-showmanymoveone .carousel-inner>.active.right,
+        .carousel-showmanymoveone .carousel-inner>.next {
+            left: 50%;
+        }
+        .carousel-showmanymoveone .carousel-inner>.left,
+        .carousel-showmanymoveone .carousel-inner>.prev.right,
+        .carousel-showmanymoveone .carousel-inner>.active {
+            left: 0;
+        }
+        .carousel-showmanymoveone .carousel-inner .cloneditem-1 {
+            display: block;
+        }
+    }
+    @media all and (min-width: 768px) and (transform-3d),
+    all and (min-width: 768px) and (-webkit-transform-3d) {
+        .carousel-showmanymoveone .carousel-inner>.item.active.right,
+        .carousel-showmanymoveone .carousel-inner>.item.next {
+            -webkit-transform: translate3d(50%, 0, 0);
+            transform: translate3d(50%, 0, 0);
+            left: 0;
+        }
+        .carousel-showmanymoveone .carousel-inner>.item.active.left,
+        .carousel-showmanymoveone .carousel-inner>.item.prev {
+            -webkit-transform: translate3d(-50%, 0, 0);
+            transform: translate3d(-50%, 0, 0);
+            left: 0;
+        }
+        .carousel-showmanymoveone .carousel-inner>.item.left,
+        .carousel-showmanymoveone .carousel-inner>.item.prev.right,
+        .carousel-showmanymoveone .carousel-inner>.item.active {
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+            left: 0;
+        }
+    }
+    @media all and (min-width: 992px) {
+        .carousel-showmanymoveone .carousel-inner>.active.left,
+        .carousel-showmanymoveone .carousel-inner>.prev {
+            left: -25%;
+        }
+        .carousel-showmanymoveone .carousel-inner>.active.right,
+        .carousel-showmanymoveone .carousel-inner>.next {
+            left: 25%;
+        }
+        .carousel-showmanymoveone .carousel-inner>.left,
+        .carousel-showmanymoveone .carousel-inner>.prev.right,
+        .carousel-showmanymoveone .carousel-inner>.active {
+            left: 0;
+        }
+        .carousel-showmanymoveone .carousel-inner .cloneditem-2,
+        .carousel-showmanymoveone .carousel-inner .cloneditem-3 {
+            display: block;
+        }
+    }
+    @media all and (min-width: 992px) and (transform-3d),
+    all and (min-width: 992px) and (-webkit-transform-3d) {
+        .carousel-showmanymoveone .carousel-inner>.item.active.right,
+        .carousel-showmanymoveone .carousel-inner>.item.next {
+            -webkit-transform: translate3d(25%, 0, 0);
+            transform: translate3d(25%, 0, 0);
+            left: 0;
+        }
+        .carousel-showmanymoveone .carousel-inner>.item.active.left,
+        .carousel-showmanymoveone .carousel-inner>.item.prev {
+            -webkit-transform: translate3d(-25%, 0, 0);
+            transform: translate3d(-25%, 0, 0);
+            left: 0;
+        }
+        .carousel-showmanymoveone .carousel-inner>.item.left,
+        .carousel-showmanymoveone .carousel-inner>.item.prev.right,
+        .carousel-showmanymoveone .carousel-inner>.item.active {
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+            left: 0;
+        }
+    }
+    .container {
+        margin-bottom: 50px;
+    }
+    /*light box css*/
+ #background_overlay {
+     display: none;
+     position: fixed;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: rgba(0,0,0, 0.9);
+     z-index: 999;
+     overflow: auto;
+}
+ .container_img {
+     position: relative;
+     max-width: 1000px;
+     max-height: 600px;
+     margin: 2% auto;
+     animation-name: zoom_image;
+     animation-duration: 0.4s;
+}
+ .con-ac-ar {
+     width: 1000px;
+     height: 600px;
+     position: relative;
+}
+ .closebtn {
+     text-align: right;
+     font-size: 2.5em;
+     color: rgb(255, 255, 255);
+     cursor: pointer;
+}
+ .activePopUpImg {
+     width: 1000px;
+     height: 500px;
+     padding: 5px;
+     background-color: rgb(255, 255, 255);
+     border-radius: 5px;
+}
+ .previousImage, .nextImage {
+     color: red;
+     font-size: 2.5em;
+     cursor: pointer;
+     opacity: 0;
+     width: 80px;
+     text-align: center;
+}
+ .previousImage {
+     position: absolute;
+     line-height: 600px;
+     top: 0;
+     left: 0;
+     bottom: 0;
+}
+ .nextImage {
+     position: absolute;
+     line-height: 600px;
+     top: 0;
+     right: 0;
+     bottom: 0;
+}
+ .previousImage:hover {
+     opacity: 1;
+     transition: 0.4s;
+}
+ .nextImage:hover {
+     opacity: 1;
+     transition: 0.4s;
+}
+ @keyframes zoom_image {
+     from {
+         transform: scale(0.5) 
+    }
+     to {
+         transform: scale(1) 
+    }
+}
+ @media screen and (min-width: 650px) and (max-width: 1100px) {
+     .container_img {
+         width: 100%;
+         height: 500px;
+    }
+     .con-ac-ar {
+         width: 100%;
+         height: 500px;
+    }
+     .activePopUpImg {
+         width: 100%;
+         height: 500px;
+    }
+     .previousImage, .nextImage {
+         line-height: 500px;
+    }
+}
+ @media screen and (min-width: 351px) and (max-width: 649px) {
+     .container_img {
+         width: 100%;
+         height: 400px;
+    }
+     .con-ac-ar {
+         width: 100%;
+         height: 400px;
+    }
+     .activePopUpImg {
+         width: 100%;
+         height: 400px;
+    }
+     .previousImage, .nextImage {
+         line-height: 400px;
+    }
+}
+ @media screen and (max-width: 350px) {
+     .container_img {
+         width: 100%;
+         height: 300px;
+    }
+     .con-ac-ar {
+         width: 100%;
+         height: 300px;
+    }
+     .activePopUpImg {
+         width: 100%;
+         height: 300px;
+    }
+     .previousImage, .nextImage {
+         line-height: 300px;
+    }
+}
+
