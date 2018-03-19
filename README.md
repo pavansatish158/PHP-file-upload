@@ -1,5 +1,6 @@
 # PHP-file-upload
 File uploading using PHP
+
 Following are the list of features:
 1. Uploading file types like .jpg,.gif,.pdf,.doc,.txt and .xlsx can be done through this site.
 2. Use of Google Recaptcha at the time of file upload.
